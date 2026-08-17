@@ -68,9 +68,6 @@ func stringsSplit(s, sep string) []string {
 		}
 	}
 	out = append(out, s[start:])
-	if len(out) > 0 && out[0] == "" {
-		out = out[1:]
-	}
 	return out
 }
 
